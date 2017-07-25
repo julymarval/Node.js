@@ -20,7 +20,7 @@ var Youtube = express.Router();              // get an instance of the express Y
 
 var log4js = require('log4js'); // for logging
 
-log4js.configure({appenders: [{type: 'file', filename: '/var/log/papita.log', category: 'dev'}]});
+log4js.configure({appenders: [{type: 'file', filename: '/var/log/file.log', category: 'dev'}]});
 var logger = log4js.getLogger('dev');
 logger.setLevel('INFO');
 

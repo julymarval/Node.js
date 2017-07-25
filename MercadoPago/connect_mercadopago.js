@@ -1,18 +1,15 @@
-
+/****************************************
+* Route that connects with mercadopago 	*
+****************************************/
 
 /* Global Variables */
 
 var express    = require('express');        // call express
 var bodyParser = require('body-parser');
-var manager    = require('../manager/services_manager');
-var validate   = require('../manager/validation_manager');
-var constants  = require('../model/constants');
-var response   = require('../manager/json_manager');
 var MP         = require ("mercadopago");
-var config     = require('../config/config');
 var log4js     = require('log4js');
 
-log4js.configure({appenders: [{type: 'file', filename: '/var/log/papita.log', category: 'dev'}]});
+log4js.configure({appenders: [{type: 'file', filename: '/var/log/file.log', category: 'dev'}]});
 var logger = log4js.getLogger('dev');
 logger.setLevel('INFO');
 
