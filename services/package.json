@@ -16,7 +16,7 @@
     "jwt-simple": "^0.5.1",
     "log4js": "^2.3.2",
     "moment": "^2.18.1",
-    "mongodb": "^2.2.30",
+    "mongodb": "^3.6.1",
     "morgan": ">=1.9.1",
     "randomstring": "^1.1.5",
     "serve-favicon": "~2.3.0"
